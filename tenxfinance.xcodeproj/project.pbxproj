@@ -6,8 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F0FC7222FA1CA5C00FACE34 /* FinanceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FC7212FA1CA5C00FACE34 /* FinanceModels.swift */; };
+		8F0FC7242FA1CB4400FACE34 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FC7232FA1CB4400FACE34 /* DashboardViewModel.swift */; };
+		8F0FC7262FA1CB9400FACE34 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FC7252FA1CB9400FACE34 /* DashboardView.swift */; };
+		8F0FC72A2FA1CBBB00FACE34 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FC7292FA1CBBB00FACE34 /* AddTransactionView.swift */; };
+		8F0FC72C2FA1CD9600FACE34 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FC72B2FA1CD9600FACE34 /* AuthService.swift */; };
+		8F56013830251648007E1026 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56013730251648007E1026 /* RegisterView.swift */; };
+		8F56014030251DA1007E1026 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56013F30251DA1007E1026 /* SettingsView.swift */; };
+		8F5DF8872FA30C370039AB99 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF8862FA30C370039AB99 /* WelcomeView.swift */; };
+		8F5DF8892FA30C5C0039AB99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF8882FA30C5C0039AB99 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8F0FC70E2FA1C90000FACE34 /* tenxfinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tenxfinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0FC7212FA1CA5C00FACE34 /* FinanceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceModels.swift; sourceTree = "<group>"; };
+		8F0FC7232FA1CB4400FACE34 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		8F0FC7252FA1CB9400FACE34 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8F0FC7292FA1CBBB00FACE34 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		8F0FC72B2FA1CD9600FACE34 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8F56013730251648007E1026 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8F56013F30251DA1007E1026 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8F5DF8862FA30C370039AB99 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8F5DF8882FA30C5C0039AB99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +53,11 @@
 		8F0FC7052FA1C90000FACE34 = {
 			isa = PBXGroup;
 			children = (
+				8F0FC7202FA1C9E900FACE34 /* Extensions */,
+				8F0FC71F2FA1C9CF00FACE34 /* Views */,
+				8F0FC71E2FA1C93600FACE34 /* Services */,
+				8F0FC71D2FA1C92E00FACE34 /* ViewModels */,
+				8F0FC71C2FA1C92300FACE34 /* Models */,
 				8F0FC7102FA1C90000FACE34 /* tenxfinance */,
 				8F0FC70F2FA1C90000FACE34 /* Products */,
 			);
@@ -43,6 +69,50 @@
 				8F0FC70E2FA1C90000FACE34 /* tenxfinance.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0FC71C2FA1C92300FACE34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F0FC7212FA1CA5C00FACE34 /* FinanceModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F0FC71D2FA1C92E00FACE34 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F0FC7232FA1CB4400FACE34 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8F0FC71E2FA1C93600FACE34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8F0FC72B2FA1CD9600FACE34 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8F0FC71F2FA1C9CF00FACE34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F0FC7252FA1CB9400FACE34 /* DashboardView.swift */,
+				8F0FC7292FA1CBBB00FACE34 /* AddTransactionView.swift */,
+				8F5DF8862FA30C370039AB99 /* WelcomeView.swift */,
+				8F5DF8882FA30C5C0039AB99 /* LoginView.swift */,
+				8F56013730251648007E1026 /* RegisterView.swift */,
+				8F56013F30251DA1007E1026 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F0FC7202FA1C9E900FACE34 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F56013830251648007E1026 /* RegisterView.swift in Sources */,
+				8F0FC72A2FA1CBBB00FACE34 /* AddTransactionView.swift in Sources */,
+				8F0FC7222FA1CA5C00FACE34 /* FinanceModels.swift in Sources */,
+				8F0FC7262FA1CB9400FACE34 /* DashboardView.swift in Sources */,
+				8F0FC7242FA1CB4400FACE34 /* DashboardViewModel.swift in Sources */,
+				8F0FC72C2FA1CD9600FACE34 /* AuthService.swift in Sources */,
+				8F5DF8892FA30C5C0039AB99 /* LoginView.swift in Sources */,
+				8F5DF8872FA30C370039AB99 /* WelcomeView.swift in Sources */,
+				8F56014030251DA1007E1026 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +335,7 @@
 				DEVELOPMENT_TEAM = BPZ7D52Z7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +368,7 @@
 				DEVELOPMENT_TEAM = BPZ7D52Z7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
